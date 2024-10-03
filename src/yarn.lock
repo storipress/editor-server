@@ -1310,7 +1310,7 @@ __metadata:
     "@types/ws": "npm:^8"
     better-sqlite3: "npm:^9.6.0"
     drizzle-orm: "npm:^0.30.10"
-    hono: "npm:^4.3.3"
+    hono: "npm:^4.5.8"
     tsup: "npm:^8.0.2"
     tsx: "npm:^4.9.3"
     typescript: "npm:^5.4.5"
@@ -6121,10 +6121,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hono@npm:^4.3.3":
-  version: 4.3.3
-  resolution: "hono@npm:4.3.3"
-  checksum: 10/f5c8919531e767b1d06457440e2fe5f4504749313e4d2cd1f78cb7c2cbc04b78e39e45a76fda22517d16f2a74a3625fa6f624d24a5f1dfd92f6a0557b0cc0293
+"hono@npm:^4.5.8":
+  version: 4.6.3
+  resolution: "hono@npm:4.6.3"
+  checksum: 10/fddfb5ed8694c9fe92dc4d5cf6079ecd5e30a37a53c5ad3d8bf8689830e9e4d52054ec13d1aef36a078e1ca003959eff6fb76948219944c4f103e7e4b4e3b65a
   languageName: node
   linkType: hard
 
