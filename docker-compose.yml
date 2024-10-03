@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+  hocuspocus:
+    image: ghcr.io/storipress/ec-hocuspocus:latest
+    container_name: hocuspocus
+    restart: unless-stopped
+    volumes:
+      - ./databases:/opt/collaboration-server/databases
+    ports:
+    - "8001:8001"
+    environment:
+      - WEBHOOK_ENDPOINT
+      - WEBHOOK_SECRET
+      - MONITOR_USER
+      - MONITOR_PASSWORD
+      - AXIOM_TOKEN

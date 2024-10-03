@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/node20/tsconfig.json",
+  "compilerOptions": {
+    "moduleDetection": "force",
+    "module": "es2022",
+    "moduleResolution": "node",
+    "strict": true
+  },
+  "include": ["src/**/*"]
+}

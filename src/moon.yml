@@ -1,0 +1,33 @@
+tasks:
+  lint:
+    command:
+      - eslint
+      - --ext
+      - .mjs,.cjs,.js
+      - --ignore-path
+      - .gitignore
+      - .
+    platform: node
+  build:
+    command: noop
+    deps:
+      - ^:build
+  serve:
+    command:
+      - node
+      - server.js
+    env:
+      NODE_ENV: production
+    local: true
+    platform: node
+  serve-dev:
+    command:
+      - node
+      - server.js
+    env:
+      NODE_ENV: test
+    local: true
+    platform: node
+  test:
+    command: vitest
+    platform: node

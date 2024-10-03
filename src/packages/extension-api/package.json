@@ -1,0 +1,35 @@
+{
+  "name": "@storipress/extension-api",
+  "packageManager": "yarn@4.1.1",
+  "peerDependencies": {
+    "@hocuspocus/server": "^1.0.1"
+  },
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "devDependencies": {
+    "@hocuspocus/server": "^1.0.1",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/better-sqlite3": "^7.6.10",
+    "@types/ws": "^8",
+    "tsup": "^8.0.2",
+    "tsx": "^4.9.3",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@hocuspocus/provider": "^1",
+    "@hono/node-server": "^1.11.1",
+    "@hono/zod-validator": "^0.2.1",
+    "@storipress/tiptap-schema": "^1.22.4",
+    "@tiptap/core": "^2.3.1",
+    "@tiptap/extension-collaboration": "^2.3.1",
+    "better-sqlite3": "^9.6.0",
+    "drizzle-orm": "^0.30.10",
+    "hono": "^4.3.3",
+    "ws": "^8.17.0",
+    "zod": "^3.23.7"
+  }
+}

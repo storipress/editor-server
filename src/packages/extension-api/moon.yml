@@ -1,0 +1,10 @@
+tasks:
+  build:
+    command: tsup src/index.ts
+    platform: node
+    inputs:
+      - src/**
+      - tsconfig.json
+      - tsup.config.ts
+    outputs: 
+      - dist/**
